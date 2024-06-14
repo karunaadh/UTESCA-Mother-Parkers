@@ -1,0 +1,7 @@
+notebooks/CoffeeEnv2/*
+CoffeeVisionSystem/notebooks/CoffeeEnv2
+"CoffeeVisionSystem/notebooks/CoffeeEnv2"
+CoffeeVisionSystem/notebooks/CoffeeEnv2/*
+CoffeeVisionSystem/model2/data
+CoffeeVisionSystem/model2/data/
+CoffeeVisionSystem/model2/.ipynb_checkpoints
