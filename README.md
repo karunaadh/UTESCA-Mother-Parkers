@@ -1,5 +1,5 @@
-Coffee Bean Classification with Convolutional Neural Network (CNN) and Res-Net
-This project aims to classify images of coffee beans using a Convolutional Neural Network (CNN) implemented with TensorFlow and Keras. The CNN is trained on a dataset of coffee bean images to classify them into different categories.
+Coffee Bean Classification with Convolutional Neural Network (CNN) and Res-Net.
+This project aims to classify images of coffee beans using a ML algorithms implemented with TensorFlow and Keras. The CNN is trained on a dataset of coffee bean images to classify them into different categories.
 
 Prerequisites
 Before running the code, ensure you have the following dependencies installed:
@@ -10,7 +10,7 @@ Matplotlib
 NumPy
 
 !!! If you are trying to run this one your machine, and use your GPU, pay close atention to this link: https://www.tensorflow.org/install/pip
-The page explains how to properly install tenserflow, CUDA, and cuDNN, along with NVIDIA drivers just so that tenserflow will see your GPU in the notebook. Pay attention to versions of python, tenserflow, CUDA, and cuDNN. If some versions are not compatible, tenserflow will not see your GPU
+The page explains how to properly install tenserflow, CUDA, and cuDNN, along with NVIDIA drivers just so that tenserflow will see your GPU in the notebook. Pay attention to versions of python, tenserflow, CUDA, and cuDNN. If some versions are not compatible, tenserflow will not see your GPU.
 
 The first notebook, model1, loads the dataset, preprocesses the images, builds a CNN model, compiles the model with an Adam optimizer, and trains the model on the dataset. The final, hyperparameter-adjusted version is displayed. After training the model, it is evaluated on a separate test set to assess its performance. The evaluation metrics include precision, recall, and accuracy, along with a few others for your interest.
 
@@ -23,6 +23,7 @@ The second model presented will probably produce hectic validation metrics, jump
 
 DATA:
 #1. https://github.com/tanius/smallopticalsorter/tree/master/classifier-trainingdata <---- Dataset with two labels, good and bad
+
 #2. https://comvis.unsyiah.ac.id/usk-coffee/ <--- A dataset with 4 labels, used in the 2nd Notebook
 
 Author - Ivan Kraskov
